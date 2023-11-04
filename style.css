@@ -46,7 +46,7 @@ button:hover{
   opacity: 0.8;
   cursor: pointer;
 }
-h1,h2,h3,h4{
+h1,h2,h3{
   color: hsl(210, 10%, 33%);
 }
 p{
@@ -149,7 +149,12 @@ footer{
   display: flex;
   gap: 20px;
 }
-h4:hover{
+.links p{
+  font-size: 1rem;
+  font-weight: normal;
+  color: hsl(210, 10%, 33%);
+}
+.links p:hover{
   color: hsl(171, 66%, 44%);
   cursor: pointer;
 }
